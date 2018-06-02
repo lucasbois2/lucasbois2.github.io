@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lucas Bois</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<style type="text/css">
+	@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+	li
+	{
+		font-family: 'Anonymous Pro', monospace;
+		display: inline-block;
+		padding: 0.25em;
+	}
+	ul
+	{
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+	li a
+	{
+		text-decoration: none;
+		font-size: 1.10em;
+		padding: 0.25em;
+		color: #fff;
+		border: .015em solid rgb(25,25,25);
+	}
+	li a:hover
+	{
+		border: 0.015em solid #00ff6d;
+		border-radius: 0.25em;
+		padding: 0.25em;
+		color: #00ff6d;
+	}
+	html{
+		min-height: 100%;
+		overflow: hidden;
+	}
+	body{
+		height: calc(100vh - 8em);
+		padding: 0em;
+	 	color: rgba(255,255,255,.75);
+		font-family: 'Anonymous Pro', monospace;  
+		background-color: rgb(25,25,25);  
+	}
+	.line-1{
+		top: 4.5%;
+		left: 3.5%;
+		position: absolute;
+	    width: 24em;
+	    margin: 0 auto;
+	    border-right: 2px solid rgba(255,255,255,.75);
+	    font-size: 120%;
+	    text-align: center;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    transform: translateY(-20%);
+	    color: #00ff6d;
+	    text-align: center;
+	}
+	.line-2{
+		top: 25%;
+		left: 39.5%;
+		position: absolute;
+	    width: 24em;
+	    margin: 0 auto;
+	    border-right: 2px solid rgba(255,255,255,.75);
+	    font-size: 120%;
+	    text-align: center;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    transform: translateY(-20%);
+	    color: #00ff6d;
+	    text-align: center;   
+	}
+	.anim-typewriter{
+		animation: typewriter 1s steps(20) 1.5s 1 normal both,
+	        blinkTextCursor 800ms steps(15) infinite normal;
+	        text-align: center;
+	}
+	.anim-typewriterr{
+		animation: typewriterr 1.60s steps(30) 2s 1 normal both,
+	        blinkTextCursor 800ms steps(15) infinite normal;
+	        text-align: center;
+	}
+	@keyframes typewriter{
+		from{width: 0;}
+		to{width: 6.30em;}
+	}
+	@keyframes typewriterr{
+		from{width: 0;}
+		to{width: 15.5em;}
+	}
+	@keyframes blinkTextCursor{
+	 	from{border-right-color: #fff;}
+		to{border-right-color: transparent;}
+	}
+	h2
+	{
+		font-family: 'Anonymous Pro', monospace;
+		text-align: center;
+		margin-top: 2em;
+		font-size: 200%;
+	}
+	#socialmedia
+	{
+		padding: 2px
+		top: 35%;
+	}
+	#button1
+	{
+		background-color: rgb(25,25,25);
+		color: #fff;
+		border: 0em;
+		padding: 0.15em;
+		margin-left: .5em;
+		border: .10em solid rgb(25,25,25);
+		font-family: 'Anonymous Pro', monospace;
+	}
+	#button1:hover
+	{
+		background-color: rgb(25,25,25);
+		color: #00ff6d;
+		border: .10em solid #00ff6d ;
+		padding: 0.15em;
+		margin-left: .5em;
+		border-radius: 0.25em;
+	}
+	#button2
+	{
+		background-color: rgb(25,25,25);
+		color: #fff;
+		border: 0;
+		padding: 0.15em;
+		margin-right: .5em;
+		border: .10em solid rgb(25,25,25);
+		font-family: 'Anonymous Pro', monospace;
+	}
+	#button2:hover
+	{
+		background-color: rgb(25,25,25);
+		color: #00ff6d;
+		border: .10em solid #00ff6d ;
+		padding: 0.15em;
+		margin-right: .5em;
+		border-radius: 0.25em;
+	}
+	#button3
+	{
+		background-color: rgb(25,25,25);
+		color: #fff;
+		border: 0;
+		border: .10em solid rgb(25,25,25);
+		padding: 0.15em;
+		margin-left: .5em;
+		margin-right: .5em;
+		font-family: 'Anonymous Pro', monospace;
+	}
+	#button3:hover
+	{
+		background-color: rgb(25,25,25);
+		color: #00ff6d;
+		border: .10em solid #00ff6d ;
+		padding: 0.15em;
+		border-radius: 0.25em;
+	}
+	#bar
+	{
+	border: 0;
+	height: 1px;
+	background: #333;
+	width: 40%;
+	background-image: linear-gradient(to right, rgb(25,25,25), #00ff6d, rgb(25,25,25));
+	}
+	</style>
+<body>
+	<br>
+		<h1 class="line-1 anim-typewriter">Lucas Bois.</h1>
+	<nav class="animated fadeInDown">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+		<h2 class="line-2 anim-typewriterr">Welcome to my portfolio :D.</h2>
+		<br>
+		<hr id="bar" class="animated fadeInDown">
+		<br><br><br><br><br><br><br><br><br><br><br>
+	<div id="socialmedia" align="center" class="animated fadeInDown">
+		<a href="#"><button id="button2">Facebook</button></a>
+		<a href=""><button id="button3">Github</button></a>
+		<a href="https://www.instagram.com/lucasbois1/?hl=es-la" target="_blank"><button id="button1">Instagram</button></a>
+	</div>
+</body>
+</html>
